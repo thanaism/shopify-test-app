@@ -1,0 +1,16 @@
+<script>
+  const reactLogo = '{{ "react.svg" | asset_url }}';
+  const viteLogo = '{{ "vite.svg" | asset_url }}';
+</script>
+
+<div id="root"></div> 
+
+{% schema %}
+{
+  "name": "Test Extension Oyster",
+  "target": "section",
+  "javascript": "app.js",
+  "stylesheet": "app.css"
+}
+{% endschema %}
+
